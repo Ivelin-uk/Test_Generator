@@ -1,0 +1,15 @@
+/Applications/MAMP/htdocs/Test/bin/Debug/net7.0/Test
+/Applications/MAMP/htdocs/Test/bin/Debug/net7.0/Test.deps.json
+/Applications/MAMP/htdocs/Test/bin/Debug/net7.0/Test.runtimeconfig.json
+/Applications/MAMP/htdocs/Test/bin/Debug/net7.0/Test.dll
+/Applications/MAMP/htdocs/Test/bin/Debug/net7.0/Test.pdb
+/Applications/MAMP/htdocs/Test/obj/Debug/net7.0/Test.csproj.AssemblyReference.cache
+/Applications/MAMP/htdocs/Test/obj/Debug/net7.0/Test.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/MAMP/htdocs/Test/obj/Debug/net7.0/Test.AssemblyInfoInputs.cache
+/Applications/MAMP/htdocs/Test/obj/Debug/net7.0/Test.AssemblyInfo.cs
+/Applications/MAMP/htdocs/Test/obj/Debug/net7.0/Test.csproj.CoreCompileInputs.cache
+/Applications/MAMP/htdocs/Test/obj/Debug/net7.0/Test.dll
+/Applications/MAMP/htdocs/Test/obj/Debug/net7.0/refint/Test.dll
+/Applications/MAMP/htdocs/Test/obj/Debug/net7.0/Test.pdb
+/Applications/MAMP/htdocs/Test/obj/Debug/net7.0/Test.genruntimeconfig.cache
+/Applications/MAMP/htdocs/Test/obj/Debug/net7.0/ref/Test.dll
