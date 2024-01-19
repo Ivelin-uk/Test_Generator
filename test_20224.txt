@@ -1,0 +1,83 @@
+echo "Task 29: ";
+$arr = [1,2,3,2,1,4,2];
+$s = 0;
+for($i = 1; $i < count($arr); $i+=2){
+    $s += $arr[$i];
+}
+echo $s;
+echo "<br>";
+
+echo "Task 65: ";
+$arr = [45,55,20,44,34,55];
+for ($i = 0; $i < count($arr); $i++) {
+    $newNum = $arr[$i] % 10;
+    echo $newNum . " ";
+}
+echo "<br>";
+
+echo "Task 1: ";
+$arr = [9,9,1,2,1,1,2,2];
+echo ($arr[4] + $arr[0]) * 2;
+echo "<br>";
+
+echo "Task 33: ";
+$arr = [1,2,3,4,1,2,3,2,1,2,6,7];
+$s = 0;
+for($i = 3; $i <= 5; $i+=2){
+    $s += $arr[$i];
+}
+echo $s;
+echo "<br>";
+
+echo "Task 50: ";
+$arr = [1,6,3,7,2];
+$sum = 0;
+for ($i = 1; $i < count($arr); $i++) {
+    if ($sum < 10) {
+        echo $arr[$i] . " ";
+    }
+    $sum += $arr[$i];
+}
+echo "<br>";
+
+echo "Task 38: ";
+$counter = 1;
+while ($counter <= 5) {
+    $counter++;
+}
+echo $counter;
+echo "<br>";
+
+echo "Task 58: ";
+$arr = [4,4,2,1,5,1,2,5];
+for($i = 0; $i < count($arr) -2; $i+=2){
+    if($i % 2 == 0){
+        echo $arr[$i] . " ";
+    }
+}
+echo "<br>";
+
+echo "Task 28: ";
+$a = 1;
+$b = 2;
+$c = 3;
+if($a != $b){
+    if($a % 2 == 0){
+        $c = 4;
+    }else{
+        $c = 5;
+    }
+}else{
+    echo $c = 6;
+}
+echo $c;
+echo "<br>";
+
+echo "Task 5: ";
+$arr = [1,4,6,3,5,1];
+echo count($arr) % 2;
+echo "<br>";
+
+echo "Task 41: ";
+echo "Дайте пример как се дефинира и извиква функция в PHP .";
+echo "<br>";

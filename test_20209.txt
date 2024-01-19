@@ -1,0 +1,80 @@
+echo "Task 25: ";
+$arr = [2,2,3,4,5,6];
+if($arr[2] != $arr[2]){
+    echo "yes";
+}else{
+    echo "no";
+}
+echo "<br>";
+
+echo "Task 4: ";
+$arr = [5,4,9,1,5,1,2,5];
+echo $arr[1] + $arr[2] + $arr[3];
+echo "<br>";
+
+echo "Task 42: ";
+echo "Дайте пример как се дефинира масив в PHP .";
+echo "<br>";
+
+echo "Task 34: ";
+$arr = [4,4,2,1,5,1,2,5];
+for($i = 0; $i < count($arr); $i++){
+    if($i % 2 != 0){
+        echo $arr[$i] . " ";
+    }
+}
+echo "<br>";
+
+echo "Task 51: ";
+$arr = [7,6,5];
+for ($i = count($arr)-1; $i >= 0; $i--) {
+    echo $i . " ";
+}
+echo "<br>";
+
+echo "Task 69: ";
+$arr = [10,21,30,41,50,61];
+for ($i = 0; $i < count($arr); $i+=3) {
+    echo $arr[$i] . " ";
+}
+echo "<br>";
+
+echo "Task 43: ";
+$arr = [1,2,4,2,1,4,2];
+$s = 10;
+for($i = 0; $i < count($arr); $i++){
+    $s += $i;
+}
+echo $s;
+echo "<br>";
+
+echo "Task 45: ";
+$number = 10;
+if ($number != 10) {
+    if($number % 2 == 0){
+        echo "yes";
+    }else{
+        echo "no";
+    }
+} else {
+    echo "error";
+}
+echo "<br>";
+
+echo "Task 58: ";
+$arr = [4,4,2,1,5,1,2,5];
+for($i = 0; $i < count($arr) -2; $i+=2){
+    if($i % 2 == 0){
+        echo $arr[$i] . " ";
+    }
+}
+echo "<br>";
+
+echo "Task 67: ";
+$arr = [10,21,30,41,50,61,71];
+for ($i = 0; $i < count($arr); $i++) {
+    if($arr[$i] % 10 != 0){
+        echo $arr[$i] . " ";
+    }
+}
+echo "<br>";

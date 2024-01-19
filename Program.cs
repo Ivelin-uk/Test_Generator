@@ -9,7 +9,7 @@ class Program
         string filePath = "test.txt";
         var all_tasks = SplitFileByEmptyRow(filePath);
     
-        for (int i = 1; i <= 4; i++)
+        for (int i = 20201; i <= 20235; i++)
         {
             var random_tasks = SelectRandomTasks(all_tasks,10);
             var test = string.Join(Environment.NewLine,random_tasks);
